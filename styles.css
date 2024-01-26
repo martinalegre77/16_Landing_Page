@@ -1,0 +1,87 @@
+html {
+    font-size: 80%;
+}
+
+body {
+    background-color: rgb(241, 233, 222) !important;
+}
+
+#nav-bar {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-bottom: 3rem;
+}
+
+.nav-item {
+    font-size: 1.3rem;
+    padding-right: 1.5rem;
+}
+
+.nav-item :hover {
+    font-size: 1.4rem;
+    background-color:rgb(241, 233, 222);
+    transition: 1000ms;
+    border-radius: 2rem;
+}
+
+.mail {
+    border: 2px black;
+    margin: 2rem;
+    font-size: 2rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#submit {
+    font-size: 1.2rem;
+    background-color: rgba(255, 230, 0, 0.582);
+    margin: 1rem;
+}
+
+.subtitulos {
+    font-size: 2.1rem;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin: 2rem 0;
+    letter-spacing: 0.8px;
+}
+
+.texto {
+    font-size: 1.3rem;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: justify;
+    margin-bottom: 7rem;
+}
+
+.tarjeta {
+    margin-right: 2rem;
+}
+
+.precio {
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 2.5rem;
+}
+
+li {
+    list-style-type: none;
+    margin-top: 1rem;
+    text-align: center;
+}
+
+#video1 {
+    width: 50%;
+    margin: auto;
+    margin-top: 3rem;
+}
+
+@media only screen and (max-width: 720px){
+    .responso {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        max-width: 70%;
+        margin: auto;
+    }
+}
+
+
